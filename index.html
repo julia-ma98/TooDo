@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>ToDO</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-
+    <div class="container">
+        <h1 class="title">Список Задач</h1>
+        <div class="input">
+            <div class="control">
+                <button class="button">✓</button>
+            </div>
+            <div class="control__input">
+                <input type="text" placeholder="напишите задачу">
+            </div>
+            <div class="control">
+                <button class="button button_up">↑</button>
+            </div>
+            <div class="control">
+                <button class="button button_down">↓</button>
+            </div>
+            <div class="control">
+                <button class="button button_delete">x</button>
+            </div>
+        </div>
+        <div class="add">
+            <button class="button button_add">+ Добавить</button>
+        </div>
+    </div>
 </body>
 </html>
