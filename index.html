@@ -8,25 +8,27 @@
 <body>
     <div class="container">
         <h1 class="title">Список Задач</h1>
-        <div class="input">
+        <div class="input__wrapper">
             <div class="control">
-                <button class="button">✓</button>
+                <button class="button button_check"><img class="icon" src="./img/img_3.png" alt="Галочка"></button>
             </div>
-            <div class="control__input">
-                <input type="text" placeholder="напишите задачу">
-            </div>
-            <div class="control">
-                <button class="button button_up">↑</button>
+            <div class="input__control">
+                <input type="text" class="input__text" placeholder="напишите задачу">
             </div>
             <div class="control">
-                <button class="button button_down">↓</button>
+                <button class="button button_up"><img class="icon" src="./img/img_2.png" alt="Стрелка вверх"></button>
             </div>
             <div class="control">
-                <button class="button button_delete">x</button>
+                <button class="button button_down"><img class="icon" src="./img/img_1.png" alt="Стрелка вниз"></button>
+            </div>
+            <div class="control">
+                <button class="button button_delete"><img class="icon" src="./img/img.png" alt="Крестик"></button>
             </div>
         </div>
         <div class="add">
-            <button class="button button_add">+ Добавить</button>
+            <button class="button button_add">
+                <span class="button__text">+ Добавить</span>
+            </button>
         </div>
     </div>
 </body>
